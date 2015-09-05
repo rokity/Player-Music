@@ -24,15 +24,15 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        Button myButtonOne = (Button) findViewById(R.id.btn_audio);
+        Button myButtonOne = (Button) findViewById(R.id.button);
         myButtonOne.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
-                if(myMediaPlayer!=null)
-                if(myMediaPlayer.isPlaying())
-                    myMediaPlayer.pause();
-                myMediaPlayer = MediaPlayer.create(MainActivity.this, R.raw.sound);
+                if (myMediaPlayer != null)
+                    if (myMediaPlayer.isPlaying())
+                        myMediaPlayer.pause();
+                myMediaPlayer = MediaPlayer.create(MainActivity.this, R.raw.female_moan);
                 myMediaPlayer.setLooping(true);
                 myMediaPlayer.start();
 
@@ -41,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        Button myButtonTwo = (Button) findViewById(R.id.btn_audio2);
+        Button myButtonTwo = (Button) findViewById(R.id.button2);
         myButtonTwo.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -49,7 +49,22 @@ public class MainActivity extends AppCompatActivity {
                 if(myMediaPlayer!=null)
                     if(myMediaPlayer.isPlaying())
                         myMediaPlayer.pause();
-                myMediaPlayer = MediaPlayer.create(MainActivity.this, R.raw.sound2);
+                myMediaPlayer = MediaPlayer.create(MainActivity.this, R.raw.female_orgasm);
+                myMediaPlayer.setLooping(true);
+                myMediaPlayer.start();
+
+            }
+        });
+
+        Button myButtonmale = (Button) findViewById(R.id.btn_male);
+        myButtonmale.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                if(myMediaPlayer!=null)
+                    if(myMediaPlayer.isPlaying())
+                        myMediaPlayer.pause();
+                myMediaPlayer = MediaPlayer.create(MainActivity.this, R.raw.male_orgasm);
                 myMediaPlayer.setLooping(true);
                 myMediaPlayer.start();
 
@@ -57,6 +72,20 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
+        Button myButtonmalemoin = (Button) findViewById(R.id.btn_male_moin);
+        myButtonmalemoin.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                if(myMediaPlayer!=null)
+                    if(myMediaPlayer.isPlaying())
+                        myMediaPlayer.pause();
+                myMediaPlayer = MediaPlayer.create(MainActivity.this, R.raw.male_moaning);
+                myMediaPlayer.setLooping(true);
+                myMediaPlayer.start();
+
+            }
+        });
 
 
 

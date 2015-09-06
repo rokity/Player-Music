@@ -1,12 +1,18 @@
 package amadio.riccardo.com.riproduttoresuoni;
 
+import android.app.Activity;
 import android.media.MediaPlayer;
+import android.support.design.widget.FloatingActionButton;
+import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
+import android.widget.LinearLayout;
+
+import com.software.shell.fab.ActionButton;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -22,9 +28,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-/*
 
-        Button myButtonOne = (Button) findViewById(R.id.button);
+
+
+        Button myButtonOne = (Button) findViewById(R.id.fm_m);
         myButtonOne.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -41,7 +48,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        Button myButtonTwo = (Button) findViewById(R.id.button2);
+        Button myButtonTwo = (Button) findViewById(R.id.fm_o);
         myButtonTwo.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -56,7 +63,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-        Button myButtonmale = (Button) findViewById(R.id.btn_male);
+        Button myButtonmale = (Button) findViewById(R.id.ma_o);
         myButtonmale.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -72,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-        Button myButtonmalemoin = (Button) findViewById(R.id.btn_male_moin);
+        Button myButtonmalemoin = (Button) findViewById(R.id.ma_M);
         myButtonmalemoin.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -90,7 +97,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-        Button myButtonTree = (Button) findViewById(R.id.btn_stop);
+        android.support.design.widget.FloatingActionButton myButtonTree = (android.support.design.widget.FloatingActionButton) findViewById(R.id.fab);
         myButtonTree.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -99,7 +106,7 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
-*/
+
 
     }
 

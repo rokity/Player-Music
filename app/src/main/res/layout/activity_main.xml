@@ -1,10 +1,19 @@
-<LinearLayout
+<android.support.design.widget.CoordinatorLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:id="@+id/main_coor"
+    android:padding="10dp">
+
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main"
     android:orientation="vertical"
     android:padding="10dp">
+
 <!--
             <Button
                 android:layout_width="fill_parent"
@@ -59,7 +68,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="0.6"
             android:text="FEMALE ORGASM"
-            android:background="@drawable/woman"
+            android:background="@drawable/donna"
             android:scaleType="fitXY"
 
             android:id="@+id/fm_o">
@@ -88,7 +97,7 @@
             android:text="MALE ORGASM"
             android:id="@+id/ma_o"
             android:layout_width="0px"
-            android:background="@drawable/man"
+            android:background="@drawable/uomo"
             android:layout_height="fill_parent"
             android:layout_weight="0.6"
              />
@@ -102,25 +111,33 @@
             android:layout_weight="0.6"
            />
 
+
     </LinearLayout>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
 </LinearLayout>
 
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|bottom"
+        android:layout_margin="16dp"
+        android:src="@drawable/stop" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</android.support.design.widget.CoordinatorLayout>

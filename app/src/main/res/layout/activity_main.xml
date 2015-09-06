@@ -1,57 +1,126 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+<!--
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:paddingLeft="0dp"
+                android:paddingTop="0dp"
+                android:text="FEMALE ORGASM"
+                android:id="@+id/fm_o"
+                />
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:paddingTop="0dp"
+                android:paddingRight="0dp"
+                android:text="FEMALE MOANS"
+                android:id="@+id/fm_m"
+                 />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:paddingLeft="0dp"
+                android:paddingBottom="0dp"
+                android:text="MALE ORGASM"
+                android:id="@+id/ma_o"
+                />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:paddingBottom="0dp"
+                android:paddingRight="0dp"
+                android:text="MALE MOINS"
+                android:id="@+id/ma_M"
+                 />
 
 
 
-    <RelativeLayout
-        xmlns:android="http://schemas.android.com/apk/res/android"
+-->
 
-        android:orientation="vertical"
+
+
+    <LinearLayout
         android:layout_width="fill_parent"
-        android:layout_height="fill_parent">
-
-
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="SEX FEMALE MOANS"
-            android:id="@+id/button"
-            android:layout_gravity="center_horizontal"
-            android:layout_alignParentTop="true"
-            android:layout_marginTop="81dp"
-            android:layout_centerHorizontal="true" />
+        android:layout_height="0px"
+        android:layout_weight="0.6"
+        android:orientation="horizontal" >
 
         <Button
-            android:layout_width="wrap_content"
+
+            android:layout_width="0px"
             android:layout_height="wrap_content"
+            android:layout_weight="0.6"
             android:text="FEMALE ORGASM"
-            android:id="@+id/button2"
-            android:layout_gravity="center_horizontal"
-            android:layout_centerHorizontal="true" />
+            android:background="@drawable/woman"
+            android:scaleType="fitXY"
+
+            android:id="@+id/fm_o">
+
+            </Button>
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+
+            android:layout_width="0px"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.6"
+            android:background="@drawable/woman"
+            android:text="FEMALE MOANS"
+            android:id="@+id/fm_m" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0px"
+        android:layout_weight="0.6"
+        android:orientation="horizontal" >
+
+        <Button
             android:text="MALE ORGASM"
-            android:id="@+id/btn_male"
-            android:layout_below="@+id/button"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="47dp" />
+            android:id="@+id/ma_o"
+            android:layout_width="0px"
+            android:background="@drawable/man"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.6"
+             />
 
         <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="SEX MALE MOINS"
-            android:id="@+id/btn_male_moin"
-            android:layout_below="@+id/btn_male"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="59dp" />
+            android:text="MALE MOINS"
+            android:id="@+id/ma_M"
+            android:layout_width="0px"
+            android:background="@drawable/man"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.6"
+           />
 
-        <Button
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="STOP SOUND"
-            android:id="@+id/btn_stop"
-            android:layout_below="@+id/btn_male_moin"
-            android:layout_centerHorizontal="true"
-            android:layout_marginTop="53dp" />
+    </LinearLayout>
 
-    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>
+

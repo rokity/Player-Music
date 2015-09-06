@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-
+/*
 
         Button myButtonOne = (Button) findViewById(R.id.button);
         myButtonOne.setOnClickListener(new View.OnClickListener() {
@@ -99,7 +99,7 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
-
+*/
 
     }
 

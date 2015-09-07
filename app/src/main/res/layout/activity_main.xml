@@ -1,7 +1,7 @@
 <android.support.design.widget.CoordinatorLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
     android:id="@+id/main_coor"
     android:padding="10dp">
 
@@ -14,45 +14,6 @@
     android:orientation="vertical"
     android:padding="10dp">
 
-<!--
-            <Button
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:paddingLeft="0dp"
-                android:paddingTop="0dp"
-                android:text="FEMALE ORGASM"
-                android:id="@+id/fm_o"
-                />
-            <Button
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:paddingTop="0dp"
-                android:paddingRight="0dp"
-                android:text="FEMALE MOANS"
-                android:id="@+id/fm_m"
-                 />
-
-            <Button
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:paddingLeft="0dp"
-                android:paddingBottom="0dp"
-                android:text="MALE ORGASM"
-                android:id="@+id/ma_o"
-                />
-
-            <Button
-                android:layout_width="fill_parent"
-                android:layout_height="fill_parent"
-                android:paddingBottom="0dp"
-                android:paddingRight="0dp"
-                android:text="MALE MOINS"
-                android:id="@+id/ma_M"
-                 />
-
-
-
--->
 
 
 
